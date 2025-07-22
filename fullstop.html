@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .yellow-box {
+            background-color: #e6f7ff;
+        }
+        
+        .pink-box {
+            background-color: #ffd6e7;
+        }
+        
+        .green-box {
+            background-color: #d9f7be;
+        }
+        
+        .red-box {
+            background-color: #ffa39e;
+        }
+        
+        .Head {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        
+        .Subhead {
+            font-size: 24px;
+        }
+        
+        .Bold {
+            font-weight: bold;
+        }
+        
+        .nav-img {
+            max-height: 40px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Limbus Company</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <a href="home.html" class="btn btn-outline-light ms-2 d-flex align-items-center">
+                <img src="image/logo.png" alt="Logo" class="nav-img">
+                <span>หน้าหลัก</span>
+            </a>
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              ร่างของ Heathcliff
+            </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="home.html">หน้าหลัก</a></li>
+                            <li><a class="dropdown-item" href="wildhunt.html">Wild Hunt</a></li>
+                            <li><a class="dropdown-item" href="fullstop.html">Full Stop</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 box yellow-box Head Bold">Full‑Stop Office Fixer Heathcliff</div>
+
+            <div class="col-md-12 box yellow-box">
+                <img src="image/fullstop/498px-Full-Stop_Office_Fixer_Heathcliff_Full.webp" alt="Office Fixer Heathcliff" class="img-fluid">
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12 box pink-box Subhead">Stat</div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4 box green-box">HP</div>
+                <div class="col-md-4 box green-box">Speed</div>
+                <div class="col-md-4 box green-box">Def</div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4 box pink-box">197</div>
+                <div class="col-md-4 box pink-box">3-8</div>
+                <div class="col-md-4 box pink-box">54</div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-3 box green-box">ต้านทาน:</div>
+                <div class="col-md-3 box green-box">แทง</div>
+                <div class="col-md-3 box red-box">แพ้:</div>
+                <div class="col-md-3 box red-box">ทุบ</div>
+            </div>
+
+            <div class="row mt-4 box pink-box Subhead">
+                <div>Skills</div>
+            </div>
+
+            <!-- Skill 1 -->
+            <div class="row mt-4">
+                <div class="col-md-3"><img src="image/fullstop/1 full.png" alt=""></div>
+                <div class="col-md-9 box green-box">Skill 1 Return Fire <br>เพิ่มพลังโจมตีตามสะสม “Reports” และสร้าง “Reports” เมื่อโจมตีโดน</div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="row mt-4">
+                <div class="col-md-9 box pink-box">Skill 2 – Filing Procession<br>สร้างดาเมจเพิ่มตาม “Reports” ของเป้าหมายและ “Files” ของตนเอง</div>
+                <div class="col-md-3"><img src="image/fullstop/2 full.png" alt=""></div>
+            </div>
+
+            <!-- Skill 3 & Special -->
+            <div class="row mt-4">
+                <div class="col-md-4 box red-box"><img src="image/fullstop/3 full.png" alt=""></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6 box red-box"><img src="image/fullstop/3.2 full.png" alt=""></div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-5 box red-box">Skill 3 – Requiem<br>โจมตีหนักตาม “Reports” และ “Files” พร้อมกระจายผลเมื่อสังหาร</div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6 box red-box">Special – Lament, Mourn & Despair<br>โจมตีรุนแรงสุดหากมี “Office Assistants” เต็ม</div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12 box pink-box">
+                    <center><img src="image/fullstop/def.png" alt=""></center>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 box pink-box">Counter – O Office Assistant…!<br>สะสม “Files” และเปิดใช้สกิลใหญ่เมื่อมี full stop office Honh lu </div>
+                <div class="col-md-4"></div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 box green-box Subhead">Passive</div>
+                <div class="col-md-4"></div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6 box green-box">Office Assistant<br>เมื่อมีผู้ช่วย จะได้รับบัฟพิเศษในเทิร์นและสร้าง “Files” เมื่อช่วยสังหาร</div>
+                <div class="col-md-6 box green-box">Call of the Boss<br>ช่วยเพื่อนร่วมทีมใกล้ตายด้วยบัฟ “Deadline Mode” และพลังโจมตีเพิ่มตาม “Reports” ของศัตรู</div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-md-6 text-start">
+                        <a href="wildhunt.html" class="btn btn-secondary">&laquo; Wild Hunt</a>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <a href="home.html" class="btn btn-secondary">หน้าหลัก &raquo;</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

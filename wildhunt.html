@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wild Hunt Skill</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .box {
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        .yellow-box {
+            background-color: #fffa90;
+        }
+        
+        .pink-box {
+            background-color: #ffc0cb;
+        }
+        
+        .green-box {
+            background-color: #c9f5c9;
+        }
+        
+        .red-box {
+            background-color: rgb(189, 59, 59);
+            color: white;
+        }
+        
+        .Head {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        
+        .Subhead {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .card-img-top {
+            max-height: 300px;
+            object-fit: contain;
+        }
+        
+        .skill-img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .nav-img {
+            max-height: 40px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Limbus Company</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <a href="home.html" class="btn btn-outline-light ms-2 d-flex align-items-center">
+            <img src="image/logo.png" alt="Logo" class="nav-img">
+            <span>หน้าหลัก</span>
+        </a>
+
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              ร่างของ Heathcliff
+            </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="home.html">หน้าหลัก</a></li>
+                        <li><a class="dropdown-item" href="wildhunt.html">Wild Hunt</a></li>
+                        <li><a class="dropdown-item" href="fullstop.html">Full Stop</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<body>
+    <div class="container py-4">
+
+        <!-- หัวข้อ -->
+        <div class="text-center mb-4 box yellow-box Head">Wild Hunt Skill</div>
+
+        <!-- รูปหลัก -->
+        <div class="text-center mb-4">
+            <img src="image/498px-Wild_Hunt_Heathcliff_Full.webp" alt="Wild Hunt Heathcliff" class="img-fluid rounded shadow">
+        </div>
+
+        <!-- Stat -->
+        <div class="mb-3 box pink-box Subhead">Stat</div>
+        <div class="row text-center mb-2">
+            <div class="col-md-4 box green-box">HP</div>
+            <div class="col-md-4 box green-box">Speed</div>
+            <div class="col-md-4 box green-box">DEF</div>
+        </div>
+        <div class="row text-center mb-4">
+            <div class="col-md-4 box pink-box">211</div>
+            <div class="col-md-4 box pink-box">3 - 8</div>
+            <div class="col-md-4 box pink-box">53</div>
+        </div>
+
+        <!-- ต้านทาน/แพ้ -->
+        <div class="row text-center mb-4">
+            <div class="col-md-3"></div>
+            <div class="col-md-3 box green-box">ต้านทาน:<br>การฟัน</div>
+            <div class="col-md-3 box red-box">แพ้:<br>การทุบ</div>
+            <div class="col-md-3"></div>
+
+        </div>
+
+        <!-- สกิล -->
+        <div class="mb-3 box pink-box Subhead text-center">สกิล</div>
+
+        <!-- Skill 1 -->
+        <div class="row align-items-center mb-4">
+            <div class="col-md-3 text-center"><img src="image/wildhunt/1.png" alt="Skill 1" class="skill-img"></div>
+            <div class="col-md-9 box green-box text-start">
+                <strong>สกิล 1 - Beheading</strong><br> เพิ่มพลังโจมตีตามสถานะ Sinking ของศัตรู และสร้าง Sinking เมื่อโจมตีโดน
+            </div>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="row align-items-center mb-4">
+            <div class="col-md-9 box pink-box text-start">
+                <strong>สกิล 2 - Memorial Procession</strong><br> ยิ่งเป้าหมายมี Sinking และตัวเองมี Coffin มาก ยิ่งโจมตีแรงขึ้นและสะสม Sinking เพิ่ม
+            </div>
+            <div class="col-md-3 text-center"><img src="image/2.png" alt="Skill 2" class="skill-img"></div>
+        </div>
+
+        <!-- Skill 3 and Special -->
+        <div class="row text-center mb-3">
+            <div class="col-md-6"><img src="image/3.png" class="img-fluid rounded shadow"></div>
+            <div class="col-md-6"><img src="image/3.2.png" class="img-fluid rounded shadow"></div>
+        </div>
+        <div class="row text-center mb-4">
+            <div class="col-md-6 box red-box">
+                <strong>สกิล 3 - Requiem</strong><br>สร้างความเสียหายรุนแรงตามจำนวน Sinking/Coffin
+            </div>
+            <div class="col-md-6 box red-box">
+                <strong>สกิลพิเศษ - Lament</strong><br>แรงมากถ้ามี Dullahan
+            </div>
+        </div>
+
+        <!-- Counter -->
+        <div class="text-center mb-2">
+            <img src="image/counter.png" alt="Counter" class="img-fluid rounded shadow" style="max-width: 200px;">
+        </div>
+        <div class="text-center mb-4 box pink-box">
+            <strong>เคาน์เตอร์ - O Dullahan…!</strong><br> สะสมพลังและเปิดใช้สกิลใหญ่ได้อัตโนมัติเมื่อมี Dullahan และ SP เพียงพอ
+        </div>
+
+        <!-- Passive -->
+        <div class="text-center mb-3 box green-box Subhead">พาสซีฟ</div>
+        <div class="row text-start">
+            <div class="col-md-6 box green-box">
+                <strong>Dullahan:</strong><br>เมื่อมี Dullahan จะขี่ม้า ลด SP แต่กันโดนสตัน และสะสม Coffin เมื่อฆ่าศัตรู
+            </div>
+            <div class="col-md-6 box green-box">
+                <strong>Call of the Erlking:</strong><br>ช่วยเพื่อนที่ใกล้ตายด้วยบัฟ Wild Hunt และเพิ่มดาเมจเมื่อศัตรูมี Sinking
+            </div>
+        </div>
+        <!-- Navigation Buttons -->
+        <div class="container my-5">
+            <div class="d-flex justify-content-between">
+                <a href="home.html" class="btn btn-secondary">&laquo; หน้าหลัก</a>
+                <a href="fullstop.html" class="btn btn-secondary">Full Stop</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
